@@ -7,5 +7,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UsuarioRepository extends JpaRepository <Usuario, Long>{
 	
-	public List<Usuario> findAllByNomeCompletoContainingIgnoreCase( String nomeCompleto);
+	public List<Usuario> findAllByEmailContainingIgnoreCase( String emailS);
 }
