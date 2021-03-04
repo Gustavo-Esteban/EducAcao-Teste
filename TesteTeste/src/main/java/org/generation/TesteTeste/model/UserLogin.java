@@ -1,7 +1,8 @@
 package org.generation.TesteTeste.model;
 
 public class UserLogin {
-private String nome;
+
+	private String nome;
 	
 	private String usuario;
 	

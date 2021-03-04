@@ -43,11 +43,11 @@ public class Usuario {
 		this.id = id;
 	}
 
-	public String getNome_Completo() {
+	public String getNomeCompleto() {
 		return nomeCompleto;
 	}
 
-	public void setNome_Completo(String nomeCompleto) {
+	public void setNomeCompleto(String nomeCompleto) {
 		this.nomeCompleto = nomeCompleto;
 	}
 

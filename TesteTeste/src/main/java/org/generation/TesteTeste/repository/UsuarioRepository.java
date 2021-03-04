@@ -1,11 +1,11 @@
 package org.generation.TesteTeste.repository;
 
-import java.util.List;
+import java.util.Optional;
 
 import org.generation.TesteTeste.model.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UsuarioRepository extends JpaRepository <Usuario, Long>{
 	
-	public List<Usuario> findAllByEmailContainingIgnoreCase( String emailS);
+	public Optional<Usuario>findByEmail(String email);
 }
